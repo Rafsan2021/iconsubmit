@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.icon{
+   width: 70%;
+   margin: auto;
+}
+.main{
+    margin-top: 20px;
+}
+.main ul{
+    list-style: none;
+    
+}
+.main ul li{
+    display: inline-block;
+    margin: 3px;
+    
+}
+.main ul li a{
+    background: red;
+    color: #fff;
+    padding: 30px 40px;
+    text-decoration: none;
+    font-size: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    
+}
+.main ul li a:hover{
+    background: hotpink;
+    color:#000 ;
+    border-radius: 50%;
+}
+.square{ width: 200px;
+        height: 200px;
+        background-color:red;
+        margin: 20px 10px;
+    }
+.rectangle{
+    width: 400px;
+    height: 200px;
+    background-color: red;
+    margin: 20px 10px;
+}
+.circle{
+    height: 300px;
+    width: 300px;
+    background-color: red;
+    border-radius: 50%;
+    margin: 20px 10px;
+}
+.oval{
+    height: 300px;
+    width: 600px;
+    border-radius:300px/150px ;
+    background-color: red;
+    margin: 20px 10px;
+}
